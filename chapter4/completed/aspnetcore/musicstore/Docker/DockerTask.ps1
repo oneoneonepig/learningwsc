@@ -92,7 +92,8 @@ function Publish(){
 }
 
 $env:Path = ".\node_modules\.bin;C:\Program Files (x86)\Microsoft Visual Studio 14.0\Web\External;%PATH%;" + 
-				"C:\Program Files (x86)\Microsoft Visual Studio 14.0\Web\External\git;C:\Program Files\dotnet;C:\Program Files\docker"
+				"C:\Program Files (x86)\Microsoft Visual Studio 14.0\Web\External\git;C:\Program Files\dotnet;C:\Program Files\docker;" +
+				"C:\Program Files\nodejs;C:\Program Files\Docker\Docker\Resources\bin;C:\Users\Administrator\AppData\Roaming\npm"
 
 $ImageName = "learningwsc/${ProjectName}".ToLowerInvariant()
 

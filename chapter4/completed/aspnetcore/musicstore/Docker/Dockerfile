@@ -1,4 +1,4 @@
-﻿from microsoft/windowsservercore
+﻿from mcr.microsoft.com/windows/servercore:ltsc2019
 
 COPY ./Docker /Windows/Temp/Setups
 
